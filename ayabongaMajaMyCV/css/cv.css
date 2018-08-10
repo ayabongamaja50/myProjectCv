@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri:700|Lobster|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Cookie');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Damion|Niconne|Oleo+Script|Slabo+13px');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Jua|Katibeh');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+.image{
+   max-width: 100%;
+   max-height: 100px;
+   margin-bottom: 0%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0%;
+   display: block;
+   transition:transform 0.2;
+}
+
+.text{
+   color: #000;
+   font-family: 'El Messiri', sans-serif;
+   text-align: center;
+   text-size: 28px;
+   margin-bottom:0%;
+}
+.text2{
+   color: #637A82;
+   font-family: 'El Messiri', sans-serif;
+   text-align: center;
+   text-size: 20px;
+   margin-top:0%;
+   margin-bottom:0%;
+}
+.text-icon{
+   color: #7C7D7D;
+   font-family: 'Cookie', sans-serif;
+   text-align: left;
+   text-size: 24px;
+   text-weight: bold;
+   margin-top:0%;
+   margin-bottom:0%;
+}
+
+.text-info-css{
+   color: black;
+   font-family: 'Bowlby One SC', serif;
+}
+.text-info-css2{
+   color: black;
+   font-family: Patrick Hand,serif;
+   text-align: left;
+   text-size: 14px;
+   text-weight:bold;
+   width:100%;
+   margin-left: 15%;
+}
+
+.text-info-css3{
+   color: black;
+   font-family: 'Patrick Hand',serif;
+   text-align: left;
+   text-size: 14px;
+   text-weight:bold;
+   width:100%;
+   margin-left: 15%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+}
+.text-info-css4{
+   color: black;
+   font-family: 'Patrick Hand',serif;
+   text-align: left;
+   text-size: 14px;
+   text-weight:bold;
+   width:100%;
+   margin-left: 37.5%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+}
+
+.buffer{
+   margin:0%
+}
+
+ul#mark li {
+    display:inline;
+}
+/*Begining of Detailed information*/
+.hr{
+    display: block;
+    margin-top: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom:none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+/*Fonts
+Damion|Niconne|Oleo+Script|Slabo+13px
+Patrick+Hand
+Bowlby+One+SC|Cookie
+El+Messiri:700|Lobster|Pacifico
+*/
+.text-detail-css{
+   font-family: Oleo Script , serif;
+   font-weight: bold;
+   font-size:22px;
+   width: 100%;
+   margin-bottom:0%;
+}
+.text-detail-css2{
+   font-family:El Messiri , serif;
+   font-weight:bold;
+   font-size: 16px;
+   width: 100%;
+   margin-bottom:0%;
+}
+/*Software skills images with text*/
+.sw-sk-image{
+   max-width: 100%;
+   max-height: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0%;
+   border: 2px #69777D solid;
+   border-radius: 50%;
+   background-color:#70D6FB;
+   display: block;
+}
+
+.sw-sk-text{
+   font-family: Monospace;/*Pacifico*/
+   font-size: 14px;
+   font-weight:bold;
+   width:100%;
+}
+/*Fonts
+Arbutus+Slab|Jua|Katibeh
+*/
+.we-txt-header{
+   font-family: Arbutus Slab, serif;
+   font-size: 18px;
+   font-weight: bold;
+   color: blue;
+   width: 100%;
+}
+.we-txt-content{
+   font-family: Inconsolata,Monospace;/*Katibeh;*/
+   font-size: 14px;
+   font-weight:bold;
+   width: 100%;
+}
+/*********Portfolio animation*************/
+.txt-header-css{
+   font-family: Oleo Script;
+   font-weight: bold;
+   font-size:26px;
+   width: 100%;
+   margin-bottom:0%;
+   background-color: #000;
+   color: #E5BF00;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color: #FBE705;}
+    25%  {color: #B2EC61;}
+    50%  {color: #86E3BF;}
+    100% {color: #89FFF1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: #FBE705;}
+    25%  {color: #B2EC61;}
+    50%  {color: #86E3BF;}
+    100% {color: #89FFF1;}
+}
+/*********End of portfolio animation*******/
+.image:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+/*New updates 6/05/2018*/
